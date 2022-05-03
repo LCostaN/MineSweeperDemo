@@ -1,0 +1,36 @@
+.level-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  background-color: white;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #888;
+  color: black;
+  vertical-align: top;
+  font-size: 28px;
+  line-height: 30px;
+  border-left: 3px solid rgb(220, 220, 220);
+  border-top: 3px solid rgb(220, 220, 220);
+  border-bottom: 5px solid #333;
+  border-right: 5px solid #333;
+  display: inline-block;
+}
+
+.opened-cell {
+  width: 30px;
+  height: 30px;
+  background-color: #555;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  vertical-align: top;
+  font-size: 28px;
+  display: inline-block;
+  text-align: center;
+}
